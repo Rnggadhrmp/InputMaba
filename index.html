@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Mahasiswa UNP</title>
+</head>
+<body>
+
+    <center>
+        <h3>INPUT DATA CALON MAHASISWA UNP</h3>
+        <img src="unp.png" alt="Logo UNP" width="150">
+    </center>
+
+    <form action="" method="post">
+        <table align="center" border="0" cellpadding="5">
+            <tr>
+                <td>Nama Pendaftar</td>
+                <td><input type="text" name="nama_pendaftar" required></td>
+            </tr>
+            <tr>
+                <td>Nomor Pendaftar</td>
+                <td><input type="number" name="nomor_pendaftar" required></td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td><input type="text" name="tempat_lahir"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+                    <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>
+                    <select name="agama">
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Buddha</option>
+                        <option>Konghucu</option>
+                        <option>Hindu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Asal Sekolah</td>
+                <td><textarea name="asal_sekolah"></textarea></td>
+            </tr>
+            <tr>
+                <td>Jurusan SMA</td>
+                <td>
+                    <input type="checkbox" name="jurusan_sma" value="IPA"> IPA
+                    <input type="checkbox" name="jurusan_sma" value="IPS"> IPS
+                </td>
+            </tr>
+            <tr>
+                <td>Rata-rata Nilai</td>
+                <td><input type="number" name="rata_nilai"></td>
+            </tr>
+            <tr>
+                <td>Nama Ayah</td>
+                <td><input type="text" name="nama_ayah"></td>
+            </tr>
+            <tr>
+                <td>Nama Ibu</td>
+                <td><input type="text" name="nama_ibu"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Nomor Telepon</td>
+                <td><input type="number" name="nomor_telepon"></td>
+            </tr>
+            <tr>
+                <td>Fakultas Yang Dipilih</td>
+                <td>
+                    <select name="fakultas">
+                        <option>Fakultas Teknik</option>
+                        <option>Fakultas Ilmu Pendidikan</option>
+                        <option>Fakultas Bahasa dan Seni</option>
+                        <option>Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
+                        <option>Fakultas Ilmu Sosial</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Program Studi</td>
+                <td>
+                    <select name="program_studi">
+                        <optgroup label="Fakultas Teknik">
+                            <option>Teknik Elektro</option>
+                            <option>Teknik Mesin</option>
+                            <option>Teknik Sipil</option>
+                            <option>Teknik Informatika</option>
+                        </optgroup>
+                        <optgroup label="Fakultas Ilmu Pendidikan">
+                            <option>Pendidikan Guru SD</option>
+                            <option>Bimbingan dan Konseling</option>
+                            <option>Teknologi Pendidikan</option>
+                        </optgroup>
+                        <optgroup label="Fakultas Bahasa dan Seni">
+                            <option>Sastra Indonesia</option>
+                            <option>Seni Musik</option>
+                            <option>Seni Tari</option>
+                        </optgroup>
+                        <optgroup label="Fakultas Matematika dan Ilmu Pengetahuan Alam">
+                            <option>Matematika</option>
+                            <option>Fisika</option>
+                            <option>Biologi</option>
+                            <option>Kimia</option>
+                        </optgroup>
+                        <optgroup label="Fakultas Ilmu Sosial">
+                            <option>Ilmu Administrasi Negara</option>
+                            <option>Ilmu Komunikasi</option>
+                            <option>Sosiologi</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Simpan">
+                    <input type="reset" value="Reset">
+                    <input type="button" value="Kembali">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <center>
+        <p><b><font color="blue">Dibuat oleh Rangga Dharma Putra (24343045)</font></b></p>
+    </center>
+    
+
+</body>
+</html>
